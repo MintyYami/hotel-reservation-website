@@ -30,8 +30,6 @@ The main goals of this project are:
 1. A remodel of the old hotel's website to design a more clean and updated look.
 2. An integrated booking system to allow guests to directly book from the website, instead of emailing for room enquires.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 
 * Frontend: HTML, CSS, Javascript

@@ -1,14 +1,9 @@
 <a id="readme-top"></a>
 
 <!-- PROJECT TITLE -->
-<br />
-<div>
-  <h3>Hotel Reservatiobn Website</h3>
+# Hotel Reservation Website
 
-  <p>
-    The initial design project focusing on the booking management system for a client hotel
-  </p>
-</div>
+The initial design project focusing on the booking management system for a client hotel
 
 <!-- TABLE OF CONTENTS -->
 <details>

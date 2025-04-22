@@ -1,0 +1,71 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Columns for the page layout */
+.column {
+    float: left;
+    height: 780px;
+}
+.column.side {
+    background-color: #f1f1f1;
+    width: 20%;
+}
+.column.middle {
+    background-color: #ffffff;
+    width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Remove side columns when screen is small */
+@media (max-width: 991px) {
+    .column.side {
+        display: none;
+    }
+    .column.middle {
+        width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #F1F1F1;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border-style: solid solid none solid;
+    border-color: white;
+    border-width: 5px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    }
+    
+    /* Add a background color to the button is active or mousing is hovering on it */
+    .active, .collapsible:hover {
+    background-color: #C0C0C0;
+    }
+    
+    /* Style the collapsible content. Note: hidden by default */
+    .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+    }
+    
+    
